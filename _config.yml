@@ -6,7 +6,7 @@
 name: Vivek Pandey
 
 # Short bio or description (displayed in the header)
-description: I'm a DEVELOPER not a COMPILER
+description: I'm a developer not a compiler
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/Vivek-Py/blog/master/images/newlogo.png
@@ -37,7 +37,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: G-627BYBYSVF
+# google_analytics: G-T9C7JYS1H2
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
