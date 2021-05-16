@@ -1,0 +1,27 @@
+I"<p>You must have a seen a controversial, sparking conversations on Reddit and Twitter recently. People were debating over usage of Let and Const.</p>
+
+<p><img src="../images/let-vs-const.jpg" alt="Let vs Const Thumbnail" /></p>
+
+<p>It seems that netizens believe that one should use const wherever possible, only falling back to let where necessary, as can be enforced with the prefer-const <strong>ESLint rule</strong>.</p>
+
+<blockquote>
+  <p>Let vs Const vs Var: We generally want to use let. If we’re not using the same, we use const. (I’ve have seen codebases which force you to use const when there is only one assignment, same goes for some of the devs out there.)</p>
+</blockquote>
+
+<h2 id="why-prefer-const">Why prefer <code class="language-plaintext highlighter-rouge">const</code>?</h2>
+
+<ol>
+  <li>
+    <p><strong>Performance Benefits</strong>: There are some claims out there which say using const makes code faster because it knows there won’t be any re-assignment.</p>
+  </li>
+  <li>
+    <p><strong>One Way to Do It</strong>: Sometimes it’s a bias in our head. A rule like “always use const where it works” stop us from thinking about it and can be enforced by a linter nowadays.</p>
+  </li>
+  <li>
+    <p><strong>Reassignments May Cause Bugs</strong>: In the long-run, there can be instances where we may forget about reassignment of the variables. Therefore, const gives you confidence you’ll always “see” the same value and there will be no bug.</p>
+  </li>
+  <li>
+    <p><strong>Learning About Mutation</strong>: When I got started with JavaScript, I got consfused with the const &amp; immutability. It’s important to learn the difference between variable mutation and assignment anyway, and preferring const forces you to confront this distinction early on.</p>
+  </li>
+</ol>
+:ET

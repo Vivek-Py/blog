@@ -1,0 +1,32 @@
+I"S<p>I’ve been working on React for months now, since the I’ve used tons of react libraries. To my belief, we’ve seen quite new tools slowly replacing old libraires.</p>
+
+<h1 id="for-components">For Components</h1>
+
+<p>Component libraries help us develop better when we don’t have strong styling directives. Most of the time, they provide us with additional features and remove a lot of biolerplate code.</p>
+
+<h2 id="1-ant-design">1. Ant Design</h2>
+
+<p>This react component provides some enterprise-level products. You don’t need to worry about “not being able to do the component” You’ll be able to get it done.</p>
+
+<p>Another thing to note is that Ant Design is a design system. It is meant to be opinionated. Overall, it is a fun to use compared to Material UI. There’s still some things I don’t like about Ant Design. If you want to customize Ant Design theme you need to change variables during your build. To me it feels like a lot of work for little things like changing colors.</p>
+
+<h2 id="2-material-ui">2. Material UI</h2>
+
+<p>If I were not to use Ant Design, Material-UI would be the second choice. It’s components are for faster and easier web development. You can even build your own design system, or start with Material Design.</p>
+
+<h1 id="for-icons">For Icons</h1>
+
+<h2 id="react-feather">React Feather</h2>
+
+<p>React-feather is a collection of simply beautiful open source icons for React.js. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and readability.</p>
+
+<p>React-feather is also a collection of SVG files so you can use them in any way (image, background image, object, inline, etc.) depending upon the need. Overall, I prefer it over others.</p>
+
+<h2 id="material-ui-icons">Material UI Icons</h2>
+
+<p>It is a complete React UI framework and it provides one of the best icons support in three following ways:</p>
+
+<p>⋅⋅ Standardized Material Design Icons exported as React Components (SVG).
+⋅⋅ With the SVG Icon component, a React wrapper for custom SVG icons.
+⋅⋅ With the Icon components, a React wrapper for custom font icons.</p>
+:ET

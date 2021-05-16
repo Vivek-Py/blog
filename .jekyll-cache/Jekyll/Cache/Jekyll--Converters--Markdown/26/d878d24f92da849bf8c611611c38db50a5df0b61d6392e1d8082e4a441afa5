@@ -1,0 +1,30 @@
+I"L<p>You must have a seen a controversial, sparking conversations on Reddit and Twitter recently. People were debating over usage of Let and Const.</p>
+
+<p><img src="../images/let-vs-const.jpg" alt="Let vs Const Thumbnail" /></p>
+
+<p>It seems that netizens believe that one should use const wherever possible, only falling back to let where necessary, as can be enforced with the prefer-const <strong>ESLint rule</strong>.</p>
+
+<blockquote>
+  <p>Let vs Const vs Var: We generally want to use let. If we’re not using the same, we use const. (I’ve heard some codebases and coworkers are pedantic and, force you to use const when there is only one assignment.)</p>
+</blockquote>
+
+<h2 id="why-prefer-const">Why prefer <code class="language-plaintext highlighter-rouge">const</code>?</h2>
+
+<ol>
+  <li>
+    <p>** One Way to Do It**: It is mental overhead to have to choose between let and const every time. A rule like “always use const where it works” lets you stop thinking about it and can be enforced by a linter.</p>
+  </li>
+  <li>
+    <p>Reassignments May Cause Bugs: In a longer function, it can be easy to miss when a variable is reassigned. This may cause bugs. Particularly in closures, const gives you confidence you’ll always “see” the same value.</p>
+  </li>
+  <li>
+    <p>Learning About Mutation: Folks new to JavaScript often get confused thinking const implies immutability. However, one could argue that it’s important to learn the difference between variable mutation and assignment anyway, and preferring const forces you to confront this distinction early on.</p>
+  </li>
+  <li>
+    <p>Meaningless Assignments: Sometimes, an assignment doesn’t make sense at all. For example, with React Hooks, the values you get from a Hook like useState are more like parameters. They flow in one direction. Seeing an error on their assignment helps you learn earlier about the React data flow.</p>
+  </li>
+  <li>
+    <p>Performance Benefits: There are occasional claims that JavaScript engines could make code using const run faster due to the knowledge the variable won’t be reassigned.</p>
+  </li>
+</ol>
+:ET

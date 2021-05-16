@@ -1,0 +1,16 @@
+I"�<p>You must have a seen a controversial, sparking conversations on Reddit and Twitter recently. People were debating over usage of Let and Const.</p>
+
+<p><img src="../images/let-vs-const.jpg" alt="Let vs Const Thumbnail" /></p>
+
+<p>It seems that netizens believe that one should use const wherever possible, only falling back to let where necessary, as can be enforced with the prefer-const <strong>ESLint rule</strong>.</p>
+
+<blockquote>
+  <p>Let vs Const vs Var: We generally want to use let. If we’re not using the same, we use const. (I’ve heard some codebases and coworkers are pedantic and, force you to use const when there is only one assignment.)</p>
+</blockquote>
+
+<h2 id="why-prefer-const">Why prefer <code class="language-plaintext highlighter-rouge">const</code>?</h2>
+
+<ol>
+  <li>One Way to Do It: It is mental overhead to have to choose between let and const every time. A rule like “always use const where it works” lets you stop thinking about it and can be enforced by a linter.</li>
+</ol>
+:ET

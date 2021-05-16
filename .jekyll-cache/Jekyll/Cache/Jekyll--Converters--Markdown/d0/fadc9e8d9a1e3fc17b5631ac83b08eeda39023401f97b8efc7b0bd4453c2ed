@@ -1,0 +1,6 @@
+I"�<p>You must have a seen a controversial, sparking conversations on Reddit and Twitter recently. People were debating over usage of Let and Const.</p>
+
+<blockquote>
+  <p>Let vs Const vs Var: We generally want to use let. If we’re not using the same, we use const. (I’ve heard some codebases and coworkers are pedantic and, force you to use const when there is only one assignment.)</p>
+</blockquote>
+:ET
