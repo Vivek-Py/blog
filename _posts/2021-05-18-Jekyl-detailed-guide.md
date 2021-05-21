@@ -41,4 +41,4 @@ Let me explain the process:
 
 ## My conclusion
 
-Go follow TDD if you believe you'll be working on the project in the long run. Because I believe **Time** is an important resource, and you should utilize it to the fullest. Goo luck!
+Go follow TDD if you believe you'll be working on the project in the long run. Because I believe **Time** is an important resource, and you should utilize it to the fullest. Good luck!
