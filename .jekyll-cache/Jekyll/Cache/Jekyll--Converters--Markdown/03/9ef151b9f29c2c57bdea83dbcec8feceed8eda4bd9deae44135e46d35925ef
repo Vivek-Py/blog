@@ -1,0 +1,30 @@
+I"�<p>If you haven’t heard of TDD, it means Test Driven Development. What do I mean by that? Let’s talk about it today.</p>
+
+<h2 id="lets-make-sense">Let’s make sense</h2>
+
+<p>Test-driven development (aka TDD) is a three-step process. It’s often referred to as the “red, green, refactor cycle”</p>
+
+<p align="center">
+<img src="../images/TDD.png" alt="TDD Representation Image" />
+</p>
+
+<p>Let me explain the process:</p>
+
+<ul>
+  <li>
+    <p><strong>Red</strong>: It involves writing a function to test a feature which you’re going to add in the project/app. It’ll fail onbviously and you get a red error message.</p>
+  </li>
+  <li>
+    <p><strong>Green</strong>: Next up, we add the functionality/feature to the app in-order to pass the test and you get a green success message.</p>
+  </li>
+  <li>
+    <p><strong>Refactor</strong>: Now we need to look at the code and refactor it to ensure it’s well-written, and easy to read/understand.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>You repeat the same process over and over again until you have added all the required functionality.</p>
+</blockquote>
+
+<p>Bonus: Using this cycle saves you if you break something while implementing other functionalities.</p>
+:ET

@@ -13,7 +13,16 @@
 >{% endif %} {% if site.footer-links.github %}<a
   href="https://github.com/{{ site.footer-links.github }}"
   ><i class="svg-icon github"></i></a
->{% endif %} {% if site.footer-links.instagram %}<a
+>{% endif %} {% if site.footer-links.devto %}
+<a href="https://dev.to/vivekpy" rel="noreferrer" target="_blank">
+  <img
+    src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+    alt="Vivek Pandey's DEV Community Profile"
+    height="40"
+    width="40"
+  />
+</a>
+{% endif %} {% if site.footer-links.instagram %}<a
   href="https://instagram.com/{{ site.footer-links.instagram }}"
   ><i class="svg-icon instagram"></i></a
 >{% endif %} {% if site.footer-links.linkedin %}<a

@@ -1,0 +1,33 @@
+I"b<p>Recently I was faced with the situation where I had to use SVG icons in my web app. What did I do next? Wrapped the SVG in <code class="language-plaintext highlighter-rouge">&lt;Img&gt;</code> tag and went with it. It worked obviously, but it had its own shortcomings. This is what I’m going to discuss today.</p>
+
+<p>Let’s get started with discussing the cons of wrapping a svg in a <code class="language-plaintext highlighter-rouge">&lt;Img&gt;</code> tag:</p>
+
+<ul>
+  <li>Limited CSS based styling.</li>
+  <li>In-line styling is required for some of them to work.</li>
+  <li>External Stylesheets have no effect on them except for few basic modifications.</li>
+</ul>
+
+<h2 id="what-should-i-use-then">What should I use then?</h2>
+
+<p>Let’s take a look at the syntax for both of of them:</p>
+
+<ul>
+  <li>Image Tag <br />
+<code class="language-plaintext highlighter-rouge">&lt;img src="./sample.svg" alt="Sample SVG" /&gt;</code></li>
+  <li>Object Tag <br />
+<code class="language-plaintext highlighter-rouge">&lt;object data="sample.svg" type="image/svg+xml"&gt; &lt;img src="fallback.jpg" /&gt; &lt;/object&gt; </code></li>
+</ul>
+
+<blockquote>
+  <p>If you just need the SVG use the <code class="language-plaintext highlighter-rouge">img</code> tag, otherwise for an interactive SVG use <code class="language-plaintext highlighter-rouge">object</code> tag.</p>
+</blockquote>
+
+<h2 id="why-i-used-img-inside-the-object-tag">Why I used <code class="language-plaintext highlighter-rouge">img</code> inside the <code class="language-plaintext highlighter-rouge">object</code> tag?</h2>
+
+<p>It’s called a fallback image incase there’s an issue loading the SVG. The fallback png or jpg is used to replace it. Sounds amazing right. That’s one of the cool benefit of using a object tag.</p>
+
+<h2 id="my-conclusion">My Conclusion</h2>
+
+<p>If I were to use a SVG in a everyday scenario, I would use object tag over other available tags like <code class="language-plaintext highlighter-rouge">img</code>, <code class="language-plaintext highlighter-rouge">embed</code>, or <code class="language-plaintext highlighter-rouge">iframe</code>.</p>
+:ET

@@ -1,4 +1,0 @@
-I"ÿ<blockquote>
-  <p>let vs const vs var: Usually you want let. If you want to forbid assignment to this variable, you can use const. (Some codebases and coworkers are pedantic and force you to use const when there is only one assignment.)</p>
-</blockquote>
-:ET

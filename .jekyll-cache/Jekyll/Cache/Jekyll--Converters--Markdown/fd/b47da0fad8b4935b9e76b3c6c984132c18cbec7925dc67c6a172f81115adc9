@@ -1,0 +1,2 @@
+I"?<p>Recently I was faced with the situation where I had to use SVG icons in my web app. What did I do next? Wrapped the SVG in <code class="language-plaintext highlighter-rouge">&lt;Img&gt;</code> tag and went with it. It worked obviously, but it had its own shortcomings. This is what I’m going to discuss today.</p>
+:ET

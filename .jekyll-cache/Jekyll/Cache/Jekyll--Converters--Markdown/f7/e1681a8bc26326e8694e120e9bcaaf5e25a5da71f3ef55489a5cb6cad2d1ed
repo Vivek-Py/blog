@@ -1,0 +1,29 @@
+I"Z<p>Recently I was faced with the situation where I had to use SVG icons in my web app. What did I do next? Wrapped the SVG in <code class="language-plaintext highlighter-rouge">&lt;Img&gt;</code> tag and went with it. It worked obviously, but it had its own shortcomings. This is what I’m going to discuss today.</p>
+
+<p>Let’s get started with discussing the cons of wrapping a svg in a <code class="language-plaintext highlighter-rouge">&lt;Img&gt;</code> tag:</p>
+
+<ul>
+  <li>Limited CSS based styling.</li>
+  <li>In-line styling is required for some of them to work.</li>
+  <li>External Stylesheets have no effect on them except for few basic modifications.</li>
+</ul>
+
+<h2 id="what-should-i-use-then">What should I use then?</h2>
+
+<p>Let’s take a look at the syntax for all of them:</p>
+
+<ul>
+  <li>Image Tag <br />
+<code class="language-plaintext highlighter-rouge">&lt;img src="./sample.svg" alt="Sample SVG" /&gt;</code></li>
+  <li>Object Tag <br />
+<code class="language-plaintext highlighter-rouge">&lt;Object src="./sample.svg" alt="Sample SVG" /&gt;</code></li>
+  <li>Embed Tag <br />
+<code class="language-plaintext highlighter-rouge">&lt;Embed src="./sample.svg" alt="Sample SVG"&gt;&lt;/Embed&gt;</code></li>
+</ul>
+
+<p>Next up ww’ve two contenders here <code class="language-plaintext highlighter-rouge">&lt;Object&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;Embed&gt;</code> tag. Let’s see which one is better.</p>
+
+<table>
+<thead><tr><th></th><th><code>&lt;img&gt;</code></th><th><code>&lt;object&gt;</code></th><th>Inline SVG</th></tr></thead><tbody><tr><td>Browser support</td><td>Good</td><td>Good</td><td>Good</td></tr><tr><td>Alt and title attribute</td><td>Yes</td><td>None</td><td>Title only</td></tr><tr><td>Browser caching</td><td>Yes</td><td>Yes</td><td>None</td></tr><tr><td>compression</td><td>Yes</td><td>Yes</td><td>None</td></tr><tr><td>Interactivity</td><td>None</td><td>Yes</td><td>Very good</td></tr><tr><td>Loading speed</td><td>Fast</td><td>Slower</td><td>Very fast</td></tr><tr><td>Maintenance</td><td>Easy</td><td>Easy</td><td>Difficult</td></tr></tbody>
+</table>
+:ET

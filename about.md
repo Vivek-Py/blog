@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Web developer who loves to build apps which'll help millions, if not billions.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+When l'm not working, am usually with my three year Labrador, who loves to run and exercise even more than I do. I love to play video games, and travel whenever I can.
+
+I love meeting new people and learning new things. Always up for a challenge.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[Mail Me!](mailto:vivekpy@outlook.com)
